@@ -6,7 +6,7 @@ public class NumberDigits {
         int number, remainder;
         int sum = 0;
 
-        System.out.print("Enter a number: ");
+        System.out.println("Enter a number: ");
         number = scanner.nextInt();
 
         while (number > 0) {
@@ -14,6 +14,6 @@ public class NumberDigits {
             sum += remainder;
             number /= 10;
         }
-        System.out.print("The sum of the digits of the number: " + sum);
+        System.out.println("The sum of the digits of the number: " + sum);
     }
 }
